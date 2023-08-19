@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library System</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <section id="nav-bar">
+      <div id="nav-bar-sec1"><h5>Library System</h5></div>
+      <div id="nav-bar-sec2">
+        <a href="#books">Books</a>
+        <a href="#register">Register</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Logout</a>
+        <a href="#">About</a>
+      </div>
+    </section>
+
+    <section id="main-content">
+    <section id="books">
+        <table>
+            <caption><h3>Books</h3></caption>
+            <thead>
+                <tr>
+                    <th class="book-id">Book ID</th>
+                    <th class="book-title">Title</th>
+                    <th class="book-author">Author</th>
+                    <th class="book-genre">Genre</th>
+                    <th class="book-availability">Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="book-id">1</td>
+                    <td class="book-title">
+                        <table class="book-desc">
+                            <caption><h5>book title 1</h5></caption>
+                            <tr>
+                                <td>Publication Date: 05/2005</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-92-953-01</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="book-author">author 1</td>
+                    <td class="book-genre">genre 1</td>
+                    <td class="book-availability">available</td>
+                </tr>
+                <tr>
+                    <td class="book-id">2</td>
+                    <td class="book-title">
+                        <table class="book-desc">
+                            <caption><h5>book title 2</h5></caption>
+                            <tr>
+                                <td>Publication Date: 06/2006</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 310</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-92-953-02</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="book-author">author 2</td>
+                    <td class="book-genre">genre 2</td>
+                    <td class="book-availability">not available</td>
+                </tr>
+                <tr>
+                    <td class="book-id">3</td>
+                    <td class="book-title">
+                        <table class="book-desc">
+                            <caption><h5>book title 3</h5></caption>
+                            <tr>
+                                <td>Publication Date: 07/2006</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 150</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-92-953-03</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="book-author">author 3</td>
+                    <td class="book-genre">genre 3</td>
+                    <td class="book-availability">available</td>
+                </tr>
+                <tr>
+                    <td class="book-id">4</td>
+                    <td class="book-title">
+                        <table class="book-desc">
+                            <caption><h5>book title 4</h5></caption>
+                            <tr>
+                                <td>Publication Date: 08/2004</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 305</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-92-953-04</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="book-author">author 4</td>
+                    <td class="book-genre">genre 4</td>
+                    <td class="book-availability">available</td>
+                </tr>
+                <tr>
+                    <td class="book-id">5</td>
+                    <td class="book-title">
+                        <table class="book-desc">
+                            <caption><h5>book title 5</h5></caption>
+                            <tr>
+                                <td>Publication Date: 05/2006</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 260</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-92-953-05</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="book-author">author 5</td>
+                    <td class="book-genre">genre 5</td>
+                    <td class="book-availability">available</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>    
+    <section id="register">
+        <h2>Register:</h2>
+        <form action="#" method="get" id="register-form">
+            <label for="first-name">First Name:</label><br>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required><br><br>
+            
+            <label for="last-name">Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required><br><br>
+
+            <label for="dob">Date Of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" placeholder="Enter your age" min="5" max="100" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email-id" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <label for="confirm-password">Confirm Password:</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter your password" required><br><br>
+
+            <input type="submit" id="submit" value="Register">
+        </form>
+    </section>
+    </section>
+  </body>
+</html>

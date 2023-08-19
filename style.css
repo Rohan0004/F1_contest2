@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#nav-bar{
+    display: flex;
+    width: 100vw;
+    height: 2.5vw;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+#nav-bar-sec2{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav-bar-sec2>a{
+    text-decoration: none;
+    color: white;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+#books{
+    margin-top: 30px;
+    width: 60%;
+    box-shadow: 0px 0px 30px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+}
+tr:hover {
+    font-weight: bold;
+    box-shadow: 0px 0px 10px black;
+}
+table>caption{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.book-id{
+    width: 10%;
+}
+.book-title{
+    width: 30%;
+}
+.book-author{
+    width: 20%;
+}
+.book-genre{
+    width: 20%;
+}
+.book-availability{
+    width: 20%;
+}
+
+#register{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 60%;
+    padding-top: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px;
+}
+#register-form{
+    margin-top: 10px;
+}
+#register-form>input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+#register-form>label:hover ,#register-form>input:focus{
+    font-weight: bold;
+    box-shadow: 0px 0px 1px;
+    font-size: larger;
+    height: 40px;
+}
+
+#register-form>input:last-child{
+    background-color: black;
+    color: white;
+}
